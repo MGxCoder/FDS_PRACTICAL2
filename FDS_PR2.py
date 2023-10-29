@@ -68,11 +68,11 @@ def frequency():
         for j in range(i+1,len(present),1):
            if present[i]==present[j]:
                fr=fr+1
-               j=j+1
+              
                if fr>hf:
                    hf=fr
                    p=present[i]
-                   i=i+1
+                   
                    print("Highest Frequency:",hf,"For marks",p)
 
 
